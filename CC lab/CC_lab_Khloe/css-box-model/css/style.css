@@ -1,0 +1,27 @@
+body{
+    background-color: aquamarine;
+    margin:0
+}
+
+.box{
+
+     background-color: antiquewhite; 
+    width: 200px;
+    height:150px;
+    margin:20px 300px 20px 38px ;
+    padding: 20px;
+    border: 3px solid black;
+    /* border-width: 3px; */
+    /* border-style: groove; */
+     /* border-color: rgb(64, 62, 45); * */
+}
+
+.title{
+    background-color:azure;
+}
+.description {
+    color:darkorange;
+}
+#special-box{
+    background-color: lightpink;
+}
