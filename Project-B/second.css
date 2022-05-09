@@ -1,0 +1,30 @@
+html, body {
+  background-color: azure;
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+#my-container{
+  background-color: antiquewhite;
+  width: 600px;
+  height:600px;
+  border: 3px solid rgb(112, 17, 190);
+position: absolute;
+left:400px;
+top:100px
+}
+.title {
+  margin-left: 600px;
+ font-weight: bold;
+ font-size: 40px;
+  color:blue
+}
+  .description{
+margin-top: 420px;
+    margin-left: 470px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size: 40px;
+  color:white 
+  }
