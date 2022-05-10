@@ -1,5 +1,5 @@
 html, body {
-  background-image:url("assets/nature-back.jpg");
+  background-color:pink;
 }
 canvas {
   display: block;

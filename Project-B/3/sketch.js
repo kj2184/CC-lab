@@ -37,7 +37,7 @@ function setup() {
 }
 
 function draw() {
-  background(	117,	187,	103);
+  background(	255, 180, 204);
 
   for (let i = 0; i < buttons.length; i++) {
     let btn = buttons[i];
