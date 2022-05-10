@@ -1,7 +1,5 @@
 html, body {
-  background-color:lightpink;
-  margin: 0;
-  padding: 0;
+  background-image:url("assets/nature-back.jpg");
 }
 canvas {
   display: block;

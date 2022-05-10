@@ -102,7 +102,7 @@ class Pop{
    
     noStroke();
     fill(this.col);
-    ellipse(this.x, this.y, 10, 10);
+    ellipse(this.x, this.y, 20, 20);
      noStroke();
     fill(this.col);
     rect(this.x,this.y,10,5)
