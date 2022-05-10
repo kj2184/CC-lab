@@ -1,0 +1,119 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    width:1400px;
+
+   
+    background-image:url("assets/s.jpg");
+    background-position:center;
+    background-size:cover;
+    height:850px;
+
+
+}
+
+
+
+
+.icon{
+    width:200px;
+    float:left;
+    height:200px;
+}
+.logo{
+    color: rgb(6, 248, 167);
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 50px;
+
+padding-right: 300px;
+padding-top: 10px;;
+
+}
+
+.menu{
+    width:400px;
+    float:left;
+    height: 70px;
+
+}
+.ul{
+float:left;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+ul li{
+    list-style: none;
+margin-left:300px;
+margin-top: 450px;
+font-size: 17px;
+}
+
+
+
+
+#example1{
+
+    background-color:azure;
+   width:600px;
+   height:300px;
+   box-shadow: 5px 10px ;
+ margin-left: 300px;
+ margin-top: 150px;
+ margin-bottom: 200px;
+
+   padding: 20px;
+   border: 3px solid aquamarine
+   /* border-width: 3px; */
+   /* border-style: groove; */
+    /* border-color: rgb(64, 62, 45); * */
+}
+
+ul li a{
+    
+    color:aquamarine;
+}
+
+.btn{
+   margin-top: 100px;
+   margin-bottom: 30px;
+    margin-left:100px;
+    width: 120px;
+    height:80px;
+    background: deepskyblue;
+    border:2px solid blue;
+    font-size: larger;
+    color:blue;
+}
+
+.btn-1{
+    margin-top:-200px;
+  
+    margin-left:-190px;
+    width: 120px;
+    height:80px;
+    background: deepskyblue;
+    border:2px solid blue;
+    font-size: larger;
+    color:blue; 
+}
+.btn-2{
+   margin-bottom: 800px;
+    margin-left:300px;
+    width: 120px;
+    height:80px;
+    background: deepskyblue;
+    border:2px solid blue;
+    font-size: larger;
+    color:blue; 
+}
+.description{
+    font-size:21px;
+    color: cornflowerblue;
+font-family: 'Times New Roman', Times, serif;
+}
