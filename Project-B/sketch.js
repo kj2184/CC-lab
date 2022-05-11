@@ -21,7 +21,7 @@ function draw() {
   background(176, 245, 236,15);
   
   let level = amp.getLevel();
-  let dia = map(level, 0.0, 1.0, 30, 700); // ***
+  let dia = map(level, 0.0, 1.0, 30, 800); // ***
 
   push();
   translate(width / 2, height / 2);
@@ -31,7 +31,7 @@ function draw() {
   noFill();
   
   let nSpeed = ((level * 100) ** 3) * 0.000005; // ***
-  n += 0.001; //nSpeed; //0.01; // ***
+  n += 0.01; //nSpeed; //0.01; // ***
   
   beginShape();
   for (let i = 0; i < 360; i++) {
@@ -68,7 +68,7 @@ class Bubbles {
   constructor(x, y) {
     this.x = x;
     this.y = y;
-    this.dia = random(5, 10);
+    this.dia = random(5, 20);
     this.vel = random(0.01, 0.03);
     this.r = random(255);
     this.g = random(255);

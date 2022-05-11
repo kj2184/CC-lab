@@ -105,7 +105,7 @@ class Pop{
     ellipse(this.x, this.y, 20, 20);
      noStroke();
     fill(this.col);
-    rect(this.x,this.y,10,5)
+    rect(this.x,this.y,20)
 //rotateX(frameCount * 0.01);
 //  rotateZ(frameCount * 0.02);
  // cone(40, 70);

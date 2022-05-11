@@ -5,17 +5,17 @@ canvas {
   display: block;
 }
 #my-container{
-  background-color: antiquewhite;
+  background-color: whitesmoke;
   width: 400px;
   height:400px;
   border: 3px solid palevioletred;
 position: absolute;
-left:400px;
+left:500px;
 top:100px
 }
 
 .title {
-  margin-left: 500px;
+  margin-left: 630px;
  font-weight: bold;
  font-size: 40px;
   color:white;
@@ -23,8 +23,27 @@ top:100px
 
 .description{
 margin-top: 420px;
-    margin-left: 470px;
+    margin-left: 700px;
  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- font-size: 20px;
+ font-size: 15px;
   color:white 
+  }
+
+  .instruction{
+ 
+  position: absolute;
+    margin-top: -400px;
+    margin-left: 9px;
+    color:whitesmoke;
+ 
+    font-size: larger;
+    text-align:left;
+    
+  }
+
+  .explanation{
+    margin-left: 950px;
+margin-top:-400px;
+color:white;
+    font-size: larger;
   }

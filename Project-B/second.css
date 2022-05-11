@@ -28,3 +28,37 @@ margin-top: 420px;
  font-size: 40px;
   color:white 
   }
+
+.text-2{
+  
+  position: relative;
+  margin-bottom: 100px;
+  margin-left: 800px;
+  margin-top: 160px;
+  
+  color:blue;
+  font-weight:bold ;
+}
+
+.instruction{
+  position: absolute;
+
+  margin-left: 10px;
+  margin-top: -700px;
+  color:rgba(23, 23, 205, 0.476);
+  font-weight:bold ;
+  font-size: larger;
+  text-align:left;
+  
+}
+.explanation{
+  position: absolute;
+
+  margin-left: 1050px;
+  margin-top: -700px;
+  color:rgba(23, 23, 205, 0.476);
+  font-weight:bold ;
+  font-size: larger;
+  text-align:left;
+text-shadow: 10px;
+}
