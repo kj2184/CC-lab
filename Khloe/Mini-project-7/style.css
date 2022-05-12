@@ -1,0 +1,49 @@
+html, body {
+  background-color: aliceblue;
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+
+#my-container{
+  background-color: antiquewhite;
+  width: 800px;
+  height:800px;
+  border: 3px solid rgb(112, 17, 190);
+position: absolute;
+left:400px;
+top:100px
+}
+
+.title {
+  margin-left: 630px;
+ font-weight: bold;
+ font-size: 40px;
+  color:aqua;
+}
+
+
+  
+    .instruction{
+   
+   margin-left: 10px;
+margin-top:100px;
+  
+        color:rgb(53, 53, 112);
+     
+        font-size: larger;
+        text-align:left;
+        
+      }
+    
+    .explanation{
+    margin-left: 10px;
+  
+margin-top:640px;
+color:rgb(53, 53, 112);
+    font-size: larger;
+  }
+
