@@ -1,8 +1,9 @@
 let x,y,dia
 function setup() {
+
   let canvas=createCanvas(400, 400);
   canvas.parent("my-container");
-background(232, 177, 219)
+background(0)
 rectMode(CORNER)
   
    
@@ -14,16 +15,23 @@ function draw() {
   y=frameCount
 {
   push();
-  translate(100, 100);
-  rotate(radians(frameCount*20));
+  translate(150, 100);
+  rotate(radians(frameCount*10));
   
   
-stroke(255)
+stroke(255,255,50,150)
   noFill()
- circle(x, y, 20)
+ circle(x, y, 30)
   pop();
   }
 }
   
 
- 
+  // YOUR CODE HERE
+  // .. variables that accumulate values
+  // .. loops
+  // .. transformations
+  // .. conditionals
+  // .. randomness
+  
+  //saveCanvas('yourname', 'png');
