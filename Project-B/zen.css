@@ -1,6 +1,7 @@
 html, body{
     padding:0px;
-    background-image:url(assets/zen.jpg)
+    background-image:url(assets/zen.jpg);
+    margin:0px;
 }
 
 
