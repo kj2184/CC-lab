@@ -1,47 +1,87 @@
 html, body {
-  background-color: antiquewhite;
-  margin: 0;
+  background-color: rgba(146, 246, 146, 0.435);
   padding: 0;
+  margin:0px;
 }
 canvas {
   display: block;
 }
 #my-container{
   background-color: antiquewhite;
-  width: 600px;
-  height:600px;
-  border: 3px solid rgb(112, 17, 190);
+  width: 400px;
+  height:400px;
+  border: 3px solid rgb(1, 32, 1);
 position: absolute;
-left:400px;
-top:100px
+left:500px;
+top:200px
 }
 
 .title {
-  margin-left: 500px;
+  margin-left: 600px;
  font-weight: bold;
  font-size: 40px;
-  color:brown
+  color:rgb(1, 32, 1);
 }
 
 
 
 .instruction{
   margin-left: 10px;
-  color:brown;
+  color:rgb(1, 32, 1);
   font-size: 20px;
   
 }
 
 .explanation{
-  color:brown;
+  color:rgb(1, 32, 1);
   margin-top: -100px;
   margin-left:1030px;
   font-size: 20px;
 }
 
 .text-2{
-  color:coral;
+  color:rgb(1, 32, 1);
   margin-top: 310px;
 text-decoration: underline;
 margin-left: 800px;
+}
+
+.new{
+  margin:0px;
+padding-top:0px;
+  background-color:green;
+  padding: 5px;
+ 
+}
+
+.btn-1{
+  margin-top:0px;
+  margin-left:50px;
+  width: 120px;
+  height:30px;
+  background: azure;
+  border: 2px solid green;
+  font-size: larger;
+  color:greenyellow; 
+}
+.btn-2{
+  margin-top:0px;
+  margin-left:50px;
+  width: 120px;
+  height:30px;
+  background: azure;
+  border: 2px solid green;
+  font-size: larger;
+  color:blueviolet; 
+}
+.btn{
+  margin-top: 0px;
+  margin-bottom: 0px;
+   margin-left:50px;
+   width: 120px;
+   height:30px;
+   background:azure;
+   border:2px solid green;
+   font-size: larger;
+   color:green;
 }

@@ -1,4 +1,5 @@
 html, body {
+  margin: 0px;
   background-color:pink;
 }
 canvas {
@@ -11,10 +12,11 @@ canvas {
   border: 3px solid palevioletred;
 position: absolute;
 left:500px;
-top:100px
+top:320px
 }
 
 .title {
+  margin-top: 200px;;
   margin-left: 630px;
  font-weight: bold;
  font-size: 40px;
@@ -47,3 +49,44 @@ margin-top:-400px;
 color:white;
     font-size: larger;
   }
+
+
+  .new{
+    margin:0px;
+padding-top:0px;
+    background-color: palevioletred;
+    padding: 2px;
+   
+}
+
+.btn-1{
+    margin-top:0px;
+    margin-left:50px;
+    width: 120px;
+    height:30px;
+    background: azure;
+    border: 2px solid palevioletred;
+    font-size: larger;
+    color:palevioletred;  
+}
+.btn-2{
+    margin-top:0px;
+    margin-left:50px;
+    width: 120px;
+    height:30px;
+    background: azure;
+    border: 2px solid blueviolet;
+    font-size: larger;
+    color:blueviolet; 
+}
+.btn{
+    margin-top: 0px;
+    margin-bottom: 0px;
+     margin-left:50px;
+     width: 120px;
+     height:30px;
+     background:azure;
+     border:2px solid rgb(113, 113, 189);
+     font-size: larger;
+     color:blueviolet;
+}

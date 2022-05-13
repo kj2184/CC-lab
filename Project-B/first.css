@@ -28,8 +28,8 @@
     color: rgb(6, 248, 167);
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 50px;
-
-padding-right: 300px;
+margin-left: 600px;
+padding-right: 400px;
 padding-top: 10px;;
 
 }
@@ -110,7 +110,6 @@ ul li a{
     background: deepskyblue;
     border:2px solid blue;
     font-size: larger;
-    color:blue; 
 }
 .description{
     font-size:21px;
@@ -119,10 +118,24 @@ font-family: 'Times New Roman', Times, serif;
 }
 .title{
     position:absolute;
-    margin-top: 80px;
-    margin-left: 350px;
-    font-family:inherit;
+    margin-top: 110px;
+    margin-left: 400px;
+    font-family:'Arial Narrow', Arial, sans-serif;
     font-weight:bold;
-    font-size: 50px;
+    font-size: 40px;
     color:white
 }
+
+
+.btn-3{
+    margin-top: 0px;
+    margin-bottom: 30px;
+     margin-left:500px;
+     width: 120px;
+     height:80px;
+     background: deepskyblue;
+     border:2px solid blue;
+     font-size: larger;
+     color:aqua;
+ }
+

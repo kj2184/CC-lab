@@ -9,7 +9,7 @@ function preload() {
   sound = loadSound("song2.mp3");
 }
 function setup() {
-  let canvas=createCanvas(600, 600);
+  let canvas=createCanvas(400, 400);
   canvas.parent("my-container");
   background(100);
 

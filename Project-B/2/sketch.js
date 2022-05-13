@@ -10,7 +10,7 @@ let listOfColors = ['#FF6BC7',
                   ];
 
 function setup() {
-  let canvas=createCanvas(600, 600);
+  let canvas=createCanvas(400, 400);
   canvas.parent("my-container");
   strokeWeight(3);
 }
@@ -102,10 +102,10 @@ class Pop{
    
     noStroke();
     fill(this.col);
-    ellipse(this.x, this.y, 20, 20);
+    ellipse(this.x, this.y, 10, 10);
      noStroke();
     fill(this.col);
-    rect(this.x,this.y,20)
+    rect(this.x,this.y,10)
 //rotateX(frameCount * 0.01);
 //  rotateZ(frameCount * 0.02);
  // cone(40, 70);

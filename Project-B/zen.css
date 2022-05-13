@@ -1,0 +1,104 @@
+html, body{
+    padding:0px;
+    background-image:url(assets/zen.jpg)
+}
+
+
+
+#example1
+{
+    background-color:azure;
+    width:400px;
+    height:400px;
+    box-shadow: 5px 10px ;
+  margin-left: 100px;
+  margin-top: 150px;
+  margin-bottom: 200px;
+ 
+    padding: 20px;
+    border: 3px solid blueviolet
+}
+
+.description{
+    font-size:21px;
+    color: cornflowerblue;
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+#example2
+{
+    background-color:azure;
+    width:400px;
+    height:400px;
+    box-shadow: 5px 10px ;
+  margin-left: 800px;
+  position: absolute;
+  margin-top:-650px;
+  
+ 
+    padding: 20px;
+    border: 3px solid rgb(23, 23, 203)
+}
+
+.new{
+    margin:0px;
+padding-top:0px;
+    background-color: aquamarine;
+    padding: 5px;
+   
+}
+
+.btn-1{
+    margin-top:0px;
+    margin-left:50px;
+    width: 120px;
+    height:30px;
+    background: azure;
+    border: 2px solid blueviolet;
+    font-size: larger;
+    color:blueviolet; 
+}
+.btn-2{
+    margin-top:0px;
+    margin-left:50px;
+    width: 120px;
+    height:30px;
+    background: azure;
+    border: 2px solid blueviolet;
+    font-size: larger;
+    color:blueviolet; 
+}
+.btn{
+    margin-top: 0px;
+    margin-bottom: 0px;
+     margin-left:50px;
+     width: 120px;
+     height:30px;
+     background:azure;
+     border:2px solid rgb(113, 113, 189);
+     font-size: larger;
+     color:blueviolet;
+
+}
+.title-2{
+    margin-top: 100px;
+    margin-left: 600px;
+    font-family: sans-serif;
+    font-size: larger;
+    color:rgb(23, 44, 23);
+
+
+}
+
+.description-2{
+    font-size:20px;
+    color: cornflowerblue;
+font-family: 'Times New Roman', Times, serif;
+}
+.source{
+    font-size:20px;
+    color: cornflowerblue;
+font-family: 'Times New Roman', Times, serif; 
+}
