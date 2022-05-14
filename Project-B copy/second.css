@@ -1,0 +1,104 @@
+html, body {
+  background-color: azure;
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+#my-container{
+  background-color: antiquewhite;
+  width: 400px;
+  height:400px;
+  border: 3px solid rgb(112, 17, 190);
+position: absolute;
+left:500px;
+top:200px
+}
+.title {
+  margin-left: 600px;
+ font-weight: bold;
+ font-size: 40px;
+  color:blue
+}
+  .description{
+margin-top: 420px;
+    margin-left: 470px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size: 40px;
+  color:white 
+  }
+
+.text-2{
+  
+  position: relative;
+  margin-bottom: 100px;
+  margin-left: 800px;
+  margin-top: 180px;
+  
+  color:blue;
+  font-weight:bold ;
+}
+
+.instruction{
+  position: absolute;
+
+  margin-left: 10px;
+  margin-top: -700px;
+  color:rgba(23, 23, 205, 0.476);
+  font-weight:bold ;
+  font-size: larger;
+  text-align:left;
+  
+}
+.explanation{
+  position: absolute;
+
+  margin-left: 1050px;
+  margin-top: -700px;
+  color:rgba(23, 23, 205, 0.476);
+  font-weight:bold ;
+  font-size: larger;
+  text-align:left;
+text-shadow: 10px;
+}
+
+.new{
+  margin:0px;
+padding-top:0px;
+  background-color: aquamarine;
+  padding: 5px;
+ 
+}
+
+.btn-1{
+  margin-top:0px;
+  margin-left:50px;
+  width: 120px;
+  height:30px;
+  background: azure;
+  border: 2px solid blueviolet;
+  font-size: larger;
+  color:blueviolet; 
+}
+.btn-2{
+  margin-top:0px;
+  margin-left:50px;
+  width: 120px;
+  height:30px;
+  background: azure;
+  border: 2px solid blueviolet;
+  font-size: larger;
+  color:blueviolet; 
+}
+.btn{
+  margin-top: 0px;
+  margin-bottom: 0px;
+   margin-left:50px;
+   width: 120px;
+   height:30px;
+   background:azure;
+   border:2px solid rgb(113, 113, 189);
+   font-size: larger;
+   color:blueviolet;
+}
